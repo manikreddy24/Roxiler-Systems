@@ -14,6 +14,9 @@ In the project directory, you can run:
 # For admin
 <img width="1920" height="1080" alt="Screenshot 2025-07-12 094923" src="https://github.com/user-attachments/assets/a0003c06-185e-42f0-a2c5-71aa7a6078dd" />
 
+# For Store Owner
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-12 095139" src="https://github.com/user-attachments/assets/bea52ee3-55ee-4b44-bde4-485858e041ed" />
 
 
 ### `npm start`
