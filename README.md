@@ -8,9 +8,13 @@ In the project directory, you can run:
 
 # Outcome
 
+# For Normal user
 <img width="1920" height="1080" alt="Screenshot 2025-07-11 205826" src="https://github.com/user-attachments/assets/327445cc-7838-45bd-9af4-efdd508668ea" />
 
-![Uploading Screenshot 2025-07-11 205826.png…]()
+# For admin
+<img width="1920" height="1080" alt="Screenshot 2025-07-12 094923" src="https://github.com/user-attachments/assets/a0003c06-185e-42f0-a2c5-71aa7a6078dd" />
+
+
 
 ### `npm start`
 
