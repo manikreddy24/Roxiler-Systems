@@ -8,8 +8,9 @@ In the project directory, you can run:
 
 # Outcome
 
-![Uploading Screenshot 2025-07-11 205826.png…]()
+<img width="1920" height="1080" alt="Screenshot 2025-07-11 205826" src="https://github.com/user-attachments/assets/327445cc-7838-45bd-9af4-efdd508668ea" />
 
+![Uploading Screenshot 2025-07-11 205826.png…]()
 
 ### `npm start`
 
