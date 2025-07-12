@@ -1,0 +1,101 @@
+Sure! Here's the complete **`README.md` content** ready for copy-paste:
+
+---
+
+```markdown
+# 🌟 Store Rating Web App
+
+A full-stack rating platform where users can rate stores, store owners can view their feedback, and admins can manage users and stores. Designed with mobile users in mind.
+
+---
+
+## 📁 Project Structure
+
+```
+
+store-rating-app/
+├── backend/         # Node.js + Express + JSON-based API
+├── frontend/        # React.js UI
+├── README.md        # Project documentation
+
+````
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Backend Setup
+
+```bash
+cd backend
+npm install
+node index.js
+````
+
+* Runs on: `http://localhost:7000`
+* Uses file-based storage (`users.json`, `stores.json`, `rating.json`)
+
+---
+
+### 🌐 Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+* Runs on: `http://localhost:3000`
+* Built with React and Bootstrap
+
+---
+
+## 👤 User Roles & Features
+
+### 👥 Normal User
+
+* Register & login
+* View stores and their average ratings
+* Submit and edit store ratings (1–5 stars)
+
+### 🏪 Store Owner
+
+* Login
+* View users who rated their store
+* View their store’s average rating
+
+### 🛠️ System Administrator
+
+* Login to dashboard
+* Add users (Normal/Admin) and stores
+* View all users and their roles
+* View all stores and submitted ratings
+
+---
+
+## 🌟 Key Features
+
+* Responsive & mobile-friendly UI
+* Star rating component with edit confirmation
+* Role-based routing & access control
+* JSON file-based backend (no database required)
+* Clean, styled interface using Bootstrap
+
+---
+
+## 🧠 Author
+
+Made with 💡 by **Thunder Reddy**
+
+---
+
+## 📜 License
+
+MIT — Free to use, modify, and distribute.
+
+```
+
+---
+
+Copy this entire block, paste it into your `README.md` file at the root of your project (`store-rating-app/`), and you're all set!
+```

@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import { useAuth } from "./context/AuthContext";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import Home from "./pages/Home";
+import AdminDashboard from "./pages/admin/AdminDashboard";
+import StoreOwnerDashboard from "./pages/owner/StoreOwnerDashboard";
+import NotAuthorized from "./pages/NotAuthorized";
 
 function App() {
+  const { user } = useAuth();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+
+      {/* Protect admin route */}
+      <Route
+        path="/admin"
+        element={user?.role === "System Administrator" ? <AdminDashboard /> : <Navigate to="/no-access" />}
+      />
+
+      {/* Protect store owner route */}
+      <Route
+        path="/owner"
+        element={user?.role === "Store Owner" ? <StoreOwnerDashboard /> : <Navigate to="/no-access" />}
+      />
+
+      <Route path="/no-access" element={<NotAuthorized />} />
+    </Routes>
   );
 }
 

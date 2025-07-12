@@ -1,0 +1,21 @@
+.container {
+  padding: 20px;
+}
+
+h2, h4 {
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.table {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.table th, .table td {
+  text-align: center;
+}
+

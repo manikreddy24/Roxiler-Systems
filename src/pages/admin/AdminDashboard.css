@@ -1,0 +1,88 @@
+.admin-dashboard {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.first{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.admin-dashboard h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0d6efd;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+}
+
+.card h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+input, select {
+  margin-bottom: 0.75rem;
+}
+
+button {
+  width: 100%;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border: 2px solid #343a40 !important; /* darker border */
+  padding: 0.6rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+.button{
+  height: 40px;
+  width: 150px;
+  margin-left: 500px;
+}
+
+.row.g-2 {
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .admin-dashboard {
+    padding: 1rem;
+  }
+
+  .row.g-2 > * {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .admin-dashboard h2 {
+    font-size: 1.5rem;
+  }
+}
